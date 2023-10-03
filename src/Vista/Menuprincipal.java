@@ -69,7 +69,7 @@ public class Menuprincipal extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/factura.png"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\tgvan\\Downloads\\JAVA THINGSA\\Iconos\\factura.png")); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Leelawadee UI Semilight", 1, 48)); // NOI18N
         jLabel1.setText("Menú Principal");
@@ -86,18 +86,19 @@ public class Menuprincipal extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(230, 230, 230)
                         .addComponent(jLabel7)))
-                .addGap(212, 212, 212)
+                .addGap(190, 190, 190)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton2)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 226, Short.MAX_VALUE)
-                        .addComponent(jButton3)
-                        .addGap(179, 179, 179))
+                        .addGap(12, 12, 12)
+                        .addComponent(jLabel8)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 164, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel9)
-                        .addGap(201, 201, 201))))
+                        .addGap(12, 12, 12)
+                        .addComponent(jLabel9)))
+                .addGap(146, 146, 146))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(483, 483, 483)
                 .addComponent(jLabel1)
